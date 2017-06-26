@@ -1,0 +1,110 @@
+<h2>Welcome Admin !</h2 >
+
+<div class="container-fluid" style="padding-left: 0px;">
+  <div class="row equal">
+    <!--begin panel 1 -->
+    <div class="col-md-6">
+      <div style="text-align:center" class="panel panel-primary">
+        <div class="panel-heading" style="background-image:linear-gradient(to bottom, #a94442 0, #a94442 100%)  !important;">
+          <h1 class="panel-title text-center">Pedestrian Data</h1>
+        </div>
+        <!-- end panel-heading -->
+        <!--div class="panel-body">
+          <p class="text-left lead2">Below information is received from Intelligent Environment's Traffic API Service call.</p>
+          <ul class="text-left">
+            <li><span class="labelClass">Speed:</span> {{trafficData.speed}}</li>
+            <li><span class="labelClass">Direction:</span>  {{trafficData.direction}}</li>
+            <li><span class="labelClass">Count: </span> {{trafficData.count}}</li>
+          </ul> <a class="btn btn-primary" >More Info <span class="fontComingSoon">(coming soon...)</span> »</a>
+
+        </div-->
+        <div class="panel-body">
+          <p class="text-left lead2">Below information is received from Intelligent Environment's Pedestrian Planning API Service call.</p>
+          <ul class="text-left">
+            <li><span class="labelClass">Count:</span> {{pedestrianData.count}}</li>
+            <li><span class="labelClass">Time:</span> {{pedestrianData.time}}</li>
+            <li><span class="labelClass">Location:</span> {{pedestrianData.location}}</li>
+          </ul> <a class="btn btn-primary" style="margin-top: 32px;" >More Info <span class="fontComingSoon">(coming soon...)</span> »</a>
+        </div>
+        <!-- end panel-body -->
+      </div>
+      <!-- end panel-primary -->
+    </div>
+    <!--end col-md-4 -->
+    <!-- begin panel 2 -->
+    <div class="col-md-6">
+      <div style="text-align:center" class="panel panel-primary">
+        <div class="panel-heading" style="background-image:linear-gradient(to bottom, #a94442 0, #a94442 100%)  !important;">
+            <h1 class="panel-title">Indoor Planning</h1>
+        </div>
+        <!-- end panel-heading -->
+        <div class="panel-body">
+          <p class="text-left lead2">Below information is received from Intelligent Environment's Indoor Planning API Service call.</p>
+          <ul class="text-left">
+            <li><span class="labelClass">Pixel Coordinates:</span> {{parkingData.pixelCoordinates}}</li>
+            <li><span class="labelClass">Time:</span> {{parkingData.time}}</li>
+            <li><span class="labelClass">Location:</span> {{parkingData.location}}</li>
+          </ul> <a class="btn btn-primary" style="margin-top: 32px;">More Info <span class="fontComingSoon">(coming soon...)</span> »</a>
+        </div>
+        <!-- end panel-body -->
+      </div>
+      <!-- end panel-primary -->
+    </div>
+    <!-- end col-md-4 -->
+
+  </div>
+  <!-- end row -->
+
+  <div class="row equal" style="background-color:white;">
+    <!--begin panel 1 -->
+    <!--div class="col-md-6">
+      <div style="text-align:center" class="panel panel-primary">
+        <div class="panel-heading">
+          <h1 class="panel-title text-center">Pedestrian Planning</h1>
+        </div>
+
+        <div class="panel-body">
+          <p class="text-left lead2">Below information is received from Intelligent Environment's Pedestrian API Service call.</p>
+          <ul class="text-left">
+            <li><span class="labelClass">Count:</span> {{pedestrianData.count}}</li>
+            <li><span class="labelClass">Time:</span> {{pedestrianData.time}}</li>
+            <li><span class="labelClass">Location:</span> {{pedestrianData.location}}</li>
+          </ul> <a class="btn btn-primary" style="margin-top: 32px;" >More Info <span class="fontComingSoon">(coming soon...)</span> »</a>
+        </div>
+
+      </div>
+
+    </div-->
+    <!--end col-md-4 -->
+    <!-- begin panel 2 -->
+
+    <!-- end col-md-4 -->
+    <table style="width:100%">
+      <tr>
+        <th>Date</th>
+        <th>TimeStamp</th>
+        <th>Street_DeviceID</th>
+        <th>Count</th>
+      </tr>
+      <tr>
+        <td>5-19-2017</td>
+        <td>1:00</td>
+        <td>GE786</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>5-19-2017</td>
+        <td>1:30</td>
+        <td>GE234</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>5-20-2017</td>
+        <td>16:30</td>
+        <td>GE187</td>
+        <td>17</td>
+      </tr>
+    </table>
+  </div>
+  <!-- end row -->
+</div>
